@@ -1,0 +1,9 @@
+nohup: ignoring input
+Generating for language: C_sharp
+Candidates for C_sharp saved to ../generate_results/C_sharp_200_candidate.txt
+Generating for language: Python
+Candidates for Python saved to ../generate_results/Python_200_candidate.txt
+Generating for language: Java
+Candidates for Java saved to ../generate_results/Java_200_candidate.txt
+Generating for language: JS
+Candidates for JS saved to ../generate_results/JS_200_candidate.txt
