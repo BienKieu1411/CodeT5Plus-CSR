@@ -1,0 +1,16 @@
+CUDA_VISIBLE_DEVICES=1 python3 train.py \
+    --train_file '../../self_improvement/output_self/train_SI_base_new.csv' \
+    --valid_file '../../data_merged/valid_merged_data.csv' \
+    --text_column "text" \
+    --summary_column "title" \
+    --output_dir "./checkpoint/codeT5base_SI" \
+    --model_name_or_path "BienKieu/codeT5base_new" \
+    --max_source_length 512 \
+    --max_target_length 64 \
+    --num_train_epochs 4 \
+    --per_device_train_batch_size 16 \
+    --per_device_eval_batch_size 4 \
+    --ignore_pad_token_for_loss \
+    --source_prefix "" \
+    --push_to_hub \
+    --hub_model_id "BienKieu/codeT5base_SI_new"
