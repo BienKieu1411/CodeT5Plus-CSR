@@ -1,0 +1,12 @@
+transformers==4.51.3
+datasets==3.6.0
+evaluate==0.4.4
+rouge-score
+scikit-learn==1.2.2
+numpy==1.26.4
+pandas==2.2.3
+tqdm==4.67.1
+torch 
+rouge_score
+pandas==2.2.3
+nltk>=3.8.1
