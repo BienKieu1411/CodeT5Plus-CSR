@@ -1,0 +1,16 @@
+CUDA_VISIBLE_DEVICES=2 python3 train.py \
+    --train_file '../../data_merged/train_merged_data.csv' \
+    --valid_file '../../data_merged/valid_merged_data.csv' \
+    --text_column "text" \
+    --summary_column "title" \
+    --output_dir "./checkpoint" \
+    --model_name_or_path "Salesforce/codet5p-220m" \
+    --max_source_length 512 \
+    --max_target_length 64 \
+    --num_train_epochs 8 \
+    --per_device_train_batch_size 16 \
+    --per_device_eval_batch_size 4 \
+    --ignore_pad_token_for_loss \
+    --source_prefix "" \
+    --push_to_hub \
+    --hub_model_id "BienKieu/codeT5Plus_new"
