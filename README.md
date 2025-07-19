@@ -1,4 +1,4 @@
-# CodeT5Plus-CSR: Enhancing Stack Overflow Title Generation with Contrastive Self-Reranking
+# CodeT5Plus-CSR: A Title Generation Pipeline with Contrastive Learning, Self-Improvement and ROUGE-based Reranking
 
 [![HuggingFace Models](https://img.shields.io/badge/HuggingFace-Models-yellow)](https://huggingface.co/BienKieu)  
 [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-blue)](https://huggingface.co/datasets/BienKieu)  
